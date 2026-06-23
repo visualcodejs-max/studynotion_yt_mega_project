@@ -5,9 +5,10 @@ dotenv.config();
 
 const PORT = process.env.PORT || 4000;
 
-const startServer = async ()=>{
-    app.listen(PORT,()=>{
-        console.log("server running on port ${PORT}")
-    })
-}
+const startServer = async () => {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+};
+
 startServer();
