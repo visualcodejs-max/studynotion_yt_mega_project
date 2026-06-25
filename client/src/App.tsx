@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="bg-[#090c11] text-white w-full min-h-screen pb-10">
+    <div className="bg-[#090c11] text-white w-screen overflow-hidden min-h-screen pb-10">
       
       
       
